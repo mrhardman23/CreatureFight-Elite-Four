@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Creature
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Creature\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Creature()
+comment1.text=\r\n\ Default\ constructor\ for\ objects\ of\ the\ Creature\ class\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ an\ object\ of\ the\ Creature\ class\r\n
+comment2.params=health\ whichPlayer\ creatureType
+comment2.target=Creature(int,\ int,\ java.lang.String)
+comment2.text=\r\n\ Constructor\ that\ allows\ customization\ of\ objects\ of\ the\ Creature\ class\r\n\ \r\n\ @param\ health\ is\ the\ amount\ of\ health\ the\ Creature\ object\ will\ have\r\n\ @param\ whichPlayer\ discusses\ whether\ the\ creature\ belongs\ to\ player\ 1\ or\ player\ 2\r\n\ @param\ creatureType\ is\ the\ characteristic\ group\ that\ the\ Creature\ belongs\ to\r\n\ @return\ an\ object\ of\ the\ Creature\ class\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ act\ will\ complete\ actions\ that\ the\ Creature\ object\ should\r\n\ accomplish\ while\ the\ scenario\ is\ running\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment4.params=idx
+comment4.target=void\ attack(int)
+comment4.text=\r\n\ attack\ takes\ away\ health\ from\ the\ enemy\ Creature\ using\ one\ of\r\n\ two\ predefined\ attacks\r\n\ \r\n\ @param\ idx\ is\ the\ index\ of\ the\ attack\ option\ selected\r\n\ @return\ Nothing\ is\ returned\r\n
+comment5.params=
+comment5.target=HealthBar\ getHealthBar()
+comment5.text=\r\n\ getHealthBar\ returns\ the\ health\ bar\ for\ this\ creature\r\n\ for\ use\ in\ other\ parts\ of\ the\ code\ or\ for\ the\ user's\ information\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ A\ HealthBar\ object\ that\ corresponds\ to\ the\ health\ bar\r\n\ \ \ \ \ \ \ \ \ for\ this\ creature\r\n
+comment6.params=
+comment6.target=int\ getPlayerOwner()
+comment6.text=\r\n\ getPlayerOwner\ states\ whether\ the\ creature\ is\ owned\ by\ player\r\n\ one\ or\ player\ two\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ An\ integer\ that\ represents\ which\ player\ this\ Creature\ belongs\ to\r\n
+comment7.params=
+comment7.target=java.lang.String\ getType()
+comment7.text=\r\n\ getType\ returns\ the\ characteristic\ group\ that\ this\ Creature\r\n\ belongs\ to\ for\ use\ in\ other\ parts\ of\ the\ code\ or\ for\ the\ user's\r\n\ information\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ A\ String\ that\ states\ the\ Creature's\ characteristic\ group\r\n
+numComments=8

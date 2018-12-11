@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=CreatureWorld
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=CreatureWorld()
+comment1.text=\r\n\ Default\ constructor\ for\ objects\ of\ class\ CreatureWorld.\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ an\ object\ of\ class\ CreatureWorld\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ act\ will\ complete\ actions\ that\ the\ CreatureWorld\ object\ should\r\n\ accomplish\ while\ the\ scenario\ is\ running\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment3.params=
+comment3.target=void\ prepareCreatures()
+comment3.text=\r\n\ prepareCreatures\ adds\ the\ creatures\ for\ both\ players\ to\ the\ world\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment4.params=
+comment4.target=Creature\ getPlayerOne()
+comment4.text=\r\n\ getPlayerOne\ returns\ player\ one's\ current\ creature\ for\r\n\ use\ in\ other\ parts\ of\ the\ code\ or\ for\ the\ user's\ information\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment5.params=
+comment5.target=Creature\ getPlayerTwo()
+comment5.text=\r\n\ getPlayerTwo\ returns\ player\ two's\ current\ creature\ for\r\n\ use\ in\ other\ parts\ of\ the\ code\ or\ for\ the\ user's\ information\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment6.params=
+comment6.target=int\ getTurnNumber()
+comment6.text=\r\n\ getTurnNumber\ returns\ a\ number\ that\ represents\ which\ player's\r\n\ turn\ it\ is\ (either\ player\ 1\ or\ player\ 2)\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ An\ integer\ that\ represents\ which\ player's\ turn\ it\ is\r\n
+comment7.params=turn
+comment7.target=void\ setTurnNumber(int)
+comment7.text=\r\n\ setTurnNumber\ changes\ the\ turn\ number\ to\ the\ appropriate\r\n\ number\ for\ which\ player's\ turn\ it\ is\r\n\ \r\n\ @param\ turn\ is\ the\ number\ that\ represents\ which\ player's\ turn\ it\ is\r\n\ @return\ Nothing\ is\ returned\r\n
+numComments=8

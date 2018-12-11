@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Menu
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Menu\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Menu()
+comment1.text=\r\n\ A\ default\ constructor\ for\ objects\ of\ class\ Menu\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ An\ object\ of\ type\ Menu\r\n
+comment2.params=title\ items\ size\ mfg\ mbg\ sfg\ sbg\ commands
+comment2.target=Menu(java.lang.String,\ java.lang.String,\ int,\ greenfoot.Color,\ greenfoot.Color,\ greenfoot.Color,\ greenfoot.Color,\ MenuCommands)
+comment2.text=\r\n\ A\ constructor\ for\ objects\ of\ class\ Menu\r\n\ \r\n\ @param\ title\ is\ the\ text\ displayed\ in\ the\ main\ section\ of\ the\ menu\r\n\ @param\ items\ is\ the\ text\ that\ is\ displayed\ in\ the\ submenu\ section\ of\ the\ menu\r\n\ @param\ size\ is\ the\ text\ size\ that\ will\ be\ used\ to\ display\ the\ text\ from\ the\ menu\r\n\ @param\ mfg\ is\ the\ main\ foreground\ color\ (or\ the\ text\ color\ for\ the\ main\ section)\ of\ the\ menu\r\n\ @param\ mbg\ is\ the\ main\ background\ color\ (or\ the\ background\ color\ for\ the\ main\ section)\ of\ the\ menu\r\n\ @param\ sfg\ is\ the\ submenu\ foreground\ color\ (or\ the\ text\ color\ for\ the\ submenu\ section)\ of\ the\ menu\r\n\ @param\ sbg\ is\ the\ submenu\ background\ color\ (or\ the\ background\ color\ for\ the\ submenu\ section)\ of\ the\ menu\r\n\ @param\ commands\ stores\ an\ object\ that\ deals\ with\ the\ functionality\ of\ the\ menu\r\n\ @return\ An\ object\ of\ type\ Menu\r\n
+comment3.params=w
+comment3.target=void\ addedToWorld(greenfoot.World)
+comment3.text=\r\n\ addedToWorld\ is\ a\ method\ that\ is\ run\ when\ a\ new\ object\ of\ this\ class\r\n\ is\ added\ to\ the\ world\r\n\ \r\n\ @param\ w\ is\ the\ reference\ to\ the\ world\ it\ is\ added\ to\r\n\ @return\ Nothing\ is\ returned\r\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ Act\ -\ do\ whatever\ the\ Menu\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment5.params=
+comment5.target=void\ handleMouse()
+comment5.text=\r\n\ handleMouse\ handles\ mouse\ interactions\ that\ the\ user\ makes\r\n\ with\ the\ menu\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+numComments=6
